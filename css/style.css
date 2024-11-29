@@ -32,7 +32,6 @@ a{
 
 /* DOWNLOAD CARD */
 .download-card{
-    /* justify-content: end; */
     flex-direction: column;
     gap: 40px;
     align-items: center;
@@ -86,12 +85,7 @@ p{
 .reverse{
     flex-direction: row-reverse;
 }
-.card.reverse .card-content {
-    margin-right: auto;
-}
-.card.reverse .text{
-    margin-right: auto;
-}
+
 
 
 
@@ -110,6 +104,28 @@ p{
     height: 30px;
     aspect-ratio: 10;
 }
+
+/* footer */
+footer{
+    padding: 4%;
+
+}
+.side-card{
+    
+}
+.list{
+    height: 110px;
+    width: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.items{
+    height: 20px;
+    width: 100px;
+    list-style-type: none;
+}
+
 
 
 /* style */
@@ -149,4 +165,11 @@ h1, h2{
 }
 p{
     background-color: var(--b1);
+}
+.list{
+    background-color: var(--b1);
+
+}
+.items{
+    background-color: red;
 }
