@@ -109,7 +109,7 @@ p{
 footer{
     justify-content: space-around;
     padding: 4%;
-
+    align-items: flex-start;
 }
 .side-card{
     /* height: 150px; */
@@ -158,6 +158,10 @@ figure.small{
     list-style-type: none;
 
 }
+.wrap{
+    flex-wrap: wrap;
+}
+
 
 
 
@@ -216,4 +220,10 @@ span{
 }
 .small{
     background-color: var(--b4);
+}
+hr {
+    border: 1px solid #000;
+    margin-top: 20px;       
+    margin-bottom: 20px;   
+    min-width: 100vh;
 }
