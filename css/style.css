@@ -1,4 +1,6 @@
 /* layout */
+
+/* HEADER */
 .flex{
     display: flex;
 }
@@ -26,23 +28,20 @@ a{
     width: 30px;
     background-color: aliceblue;
 }
-/* .download-card{
-    padding: 20%;
-    height: 350px;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-} */
+
+
+/* DOWNLOAD CARD */
 .download-card{
-    justify-content: end;
+    /* justify-content: end; */
     flex-direction: column;
     gap: 40px;
     align-items: center;
-    padding: 20%;
+    padding: 10%;
+    /* height: 350px; */
 }
-h1{
+h1, h2{
     
-    width: 200px;
+    width: 400px;
     height: 40px;
     
 }
@@ -59,27 +58,57 @@ p{
     height: 30px;
     width: 70px;
 }
+
+
+/* CARD */
 .card{
-    padding: 20%;
-    height: 350px;
+    padding: 10%;
+    /* height: 350px; */
     gap: 40px;
     align-items: center;
-    
-    
+    justify-content: space-around;
+    min-height: 300px;
+    flex-wrap: wrap;
 }
 .img-card{
     height: 200px;
     aspect-ratio: 1;
 }
+.text{
+    flex-direction: column;
+}
 .card-content{
-    margin-left: auto;
+    align-self: flex-end;
 }
 
+
+/* REVERSE CARD */
 .reverse{
     flex-direction: row-reverse;
 }
 .card.reverse .card-content {
     margin-right: auto;
+}
+.card.reverse .text{
+    margin-right: auto;
+}
+
+
+
+/* FINAL CARD */
+.final-card{
+    padding: 10%;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.img-card-final{
+    height: 400px;
+    aspect-ratio: 2;
+}
+.start-download{
+    height: 30px;
+    aspect-ratio: 10;
 }
 
 
@@ -108,8 +137,7 @@ a{
     background-color: var(--b3);
     
 }
-h1{
-
+h1, h2{
     background-color: var(--b5);
 }
 .btn-download{
