@@ -1,0 +1,48 @@
+/* layout */
+.flex{
+    display: flex;
+}
+header{
+    height: 40px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+figure{
+    height: 20px;
+    width: 30px;
+   
+}
+.nav-bar{
+    justify-content: space-between;
+    width:300px;
+}
+a{
+    height: 20px;
+    width: 40px;
+}
+.login-btn{
+    height: 20px;
+    width: 30px;
+    background-color: aliceblue;
+}
+.card{
+    height: 400px;
+}
+
+
+/* style */
+header{
+    display: flex;
+    background-color:#255EE9;
+
+}
+figure{
+    background-color: aliceblue;
+}
+a{
+    background-color: aliceblue;
+}
+.card{
+    background-color: blueviolet;
+}
