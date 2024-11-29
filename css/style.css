@@ -26,21 +26,29 @@ a{
     width: 30px;
     background-color: aliceblue;
 }
-.download-card{
+/* .download-card{
     padding: 20%;
     height: 350px;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px;
+} */
+.download-card{
+    justify-content: end;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 20%;
 }
 h1{
+    
     width: 200px;
     height: 40px;
     
 }
 p{ 
     width: 400px;
-    height: 20px;
+    height: 100px;
 }
 .btn-download{
     justify-content: space-around;
@@ -64,11 +72,14 @@ p{
     aspect-ratio: 1;
 }
 .card-content{
-    display: flex;
-
+    margin-left: auto;
 }
+
 .reverse{
     flex-direction: row-reverse;
+}
+.card.reverse .card-content {
+    margin-right: auto;
 }
 
 
@@ -79,6 +90,7 @@ p{
     --b2:#F0F7F7;
     --b3:#F7D5E1;
     --b4:#EE97C2;
+    --card1:#F6F6F6;
 
 }
 header{
