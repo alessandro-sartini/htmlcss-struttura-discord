@@ -8,7 +8,7 @@ header{
     padding: 10px;
 }
 
-figure{
+.logo{
     height: 20px;
     width: 30px;
    
@@ -33,19 +33,12 @@ a{
     flex-wrap: wrap;
     gap: 20px;
 }
-.card{
-    padding: 20%;
-    height: 350px;
-    
-    
-}
 h1{
     width: 200px;
     height: 40px;
-   
-}
-p{
     
+}
+p{ 
     width: 400px;
     height: 20px;
 }
@@ -58,10 +51,24 @@ p{
     height: 30px;
     width: 70px;
 }
+.card{
+    padding: 20%;
+    height: 350px;
+    gap: 40px;
+    align-items: center;
+    
+    
+}
 .img-card{
     height: 200px;
     aspect-ratio: 1;
-   
+}
+.card-content{
+    display: flex;
+
+}
+.reverse{
+    flex-direction: row-reverse;
 }
 
 
@@ -87,7 +94,7 @@ a{
 }
 .card{
     background-color: var(--b3);
-    justify-content: center;
+    
 }
 h1{
 
