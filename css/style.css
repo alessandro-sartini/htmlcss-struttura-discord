@@ -107,24 +107,59 @@ p{
 
 /* footer */
 footer{
+    justify-content: space-around;
     padding: 4%;
 
 }
 .side-card{
-    
+    /* height: 150px; */
+    width: calc(20% - 20px);
+    /* min-width: 200px; */
+    /* aspect-ratio: 1.5;  */
+    gap: 10px;   
+
+}
+h3, span {
+    height: 40px; 
+    display: block; 
+    margin-bottom: 10px;
+}
+
+figure.small{
+    height: 20px; 
+    width: 20px;
+    display: inline-block;
+    width: 20%;
+    align-items: center;
+     
 }
 .list{
-    height: 110px;
-    width: 100px;
+    /* height: 110px;
+    width: 100px; */
     flex-direction: column;
     justify-content: space-around;
+    gap: 10px;
+    margin-right: 30px;
+    
+}
+.list-x{
+    /* height: 110px;
+    width: 100px; */
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin-right: 30px;
+    align-self: baseline;
     
 }
 .items{
     height: 20px;
     width: 100px;
     list-style-type: none;
+
 }
+
+
 
 
 
@@ -166,10 +201,19 @@ h1, h2{
 p{
     background-color: var(--b1);
 }
+h3{
+    background-color: var(--b5);
+}
 .list{
-    background-color: var(--b1);
+    background-color: var(--b3);
 
 }
 .items{
-    background-color: red;
+    background-color:var(--b1);
+}
+span{
+    background-color: var(--card1);
+}
+.small{
+    background-color: var(--b4);
 }
