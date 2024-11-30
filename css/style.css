@@ -6,6 +6,10 @@
 .wrap{
     flex-wrap: wrap;
 }
+a{
+    text-decoration: none;
+}
+
 
 
 /* HEADER */
@@ -15,43 +19,31 @@ header{
     padding: 10px;
 }
 
-.logo{
-    height: 20px;
-    width: 30px;
-   
-}
 .nav-bar{
     justify-content: space-between;
     width:300px;
 }
 
-.login-btn{
-    height: 20px;
-    width: 30px;
-    background-color: aliceblue;
-}
-
 .btn-logo {
+    cursor: pointer;
     padding: 10px 20px;
-    background-color: var(--b4);
-    color: #ffffff;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
-    width: auto;
+    /* height: auto;
+    width: auto; */
 }
 /* DOWNLOAD CARD */
 .download-card{
     flex-direction: column;
-    gap: 40px;
+    gap: 10px;
     align-items: center;
     padding: 10%;
     /* height: 350px; */
 }
+
 h1, h2{
     
     width: 400px;
@@ -62,15 +54,7 @@ p{
     width: 400px;
     height: 100px;
 }
-.btn-download{
-    justify-content: space-around;
-    width: 150px;
-    height: 30px;
-}
-/* .btn{
-    height: 30px;
-    width: 70px;
-} */
+
 
 
 /* CARD */
@@ -157,8 +141,7 @@ figure.small{
     
 }
 .list-x{
-    /* height: 110px;
-    width: 100px; */
+    
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
@@ -179,14 +162,16 @@ figure.small{
     width: 100%;
 }
 
-.btn,
+
 .btn {
+    font-variant: none;
     padding: 10px 20px;
     background-color: var(--b4);
     color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    gap: 10px;
 }
 
 
@@ -221,6 +206,9 @@ h1, h2{
 .btn-download{
   background-color: var(--b3);
 }
+.btn-logo {
+    background-color: var(--b4);
+}
 p{
     background-color: var(--b1);
 }
@@ -242,6 +230,6 @@ span{
 }
 hr {
     width: 100%;
-    border: 1px solid #ffffff;
+    border: 1px solid #0a0a0a;
     margin: 20px 0;
 }
