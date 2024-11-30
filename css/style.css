@@ -1,9 +1,14 @@
 /* layout */
 
-/* HEADER */
 .flex{
     display: flex;
 }
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+/* HEADER */
 header{
     height: 40px;
     justify-content: space-around;
@@ -19,17 +24,26 @@ header{
     justify-content: space-between;
     width:300px;
 }
-a{
-    height: 20px;
-    width: 40px;
-}
+
 .login-btn{
     height: 20px;
     width: 30px;
     background-color: aliceblue;
 }
 
-
+.btn-logo {
+    padding: 10px 20px;
+    background-color: var(--b4);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
 /* DOWNLOAD CARD */
 .download-card{
     flex-direction: column;
@@ -53,10 +67,10 @@ p{
     width: 150px;
     height: 30px;
 }
-.btn{
+/* .btn{
     height: 30px;
     width: 70px;
-}
+} */
 
 
 /* CARD */
@@ -158,13 +172,22 @@ figure.small{
     list-style-type: none;
 
 }
-.wrap{
-    flex-wrap: wrap;
+
+/* down-divider */
+.footer-buttons {
+    justify-content: space-between;
+    width: 100%;
 }
 
-
-
-
+.btn,
+.btn {
+    padding: 10px 20px;
+    background-color: var(--b4);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 
 /* style */
@@ -198,10 +221,6 @@ h1, h2{
 .btn-download{
   background-color: var(--b3);
 }
-.btn{
-    background-color: var(--b2);
-    border-radius: 40%;
-}
 p{
     background-color: var(--b1);
 }
@@ -222,8 +241,7 @@ span{
     background-color: var(--b4);
 }
 hr {
-    border: 1px solid #000;
-    margin-top: 20px;       
-    margin-bottom: 20px;   
-    min-width: 100vh;
+    width: 100%;
+    border: 1px solid #ffffff;
+    margin: 20px 0;
 }
